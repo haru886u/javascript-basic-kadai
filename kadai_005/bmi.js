@@ -1,6 +1,8 @@
 // 定数の宣言・値の代入
-const 体重 = 68;
-const 身長 = 1.7;
+let weight = 68;
+let height = 1.7;
+// BMI
+let bmi = weight / (height * height);
 
 // コンソールへの出力
-+console.log((68)/(1.7*1.7));
++console.log(bmi);
